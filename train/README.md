@@ -9,4 +9,4 @@
 - 사용된 패키지 버전은 학습 당시 로컬 환경 기준이며, 최신 버전 또는 본인 시스템에 맞는 버전으로 대체 가능합니다.
 - 목적은 **환경 혼동을 줄이기 위한 참고용**입니다.
 
-📎 [`requirements.txt` 바로가기](../requirements.txt)
+📎 [`requirements.txt` 바로가기](train/requirements.txt)

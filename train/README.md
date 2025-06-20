@@ -32,6 +32,7 @@ import onnx
 from ultralytics import YOLO
 model = YOLO("best.pt")
 model.export(format="onnx", opset=12, dynamic=False, simplify=False)
+```
 
 <br/>
 ## 🎯 2. 실생활 이미지 실험

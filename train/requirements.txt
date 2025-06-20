@@ -1,0 +1,13 @@
+# YOLOv8 기반 학습/추론
+ultralytics
+
+# ONNX 변환 및 실행
+onnx==1.17.0
+onnxruntime==1.19.2
+
+# 시각화
+matplotlib==3.7.5
+
+# 기타 유틸
+numpy==1.24.1
+tqdm==4.67.1

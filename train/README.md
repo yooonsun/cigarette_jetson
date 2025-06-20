@@ -35,6 +35,7 @@ model.export(format="onnx", opset=12, dynamic=False, simplify=False)
 ```
 
 <br/>
+
 ## 🎯 2. 실생활 이미지 실험
 
 모델이 실제로 얼마나 잘 동작하는지를 확인하기 위해, 우리가 **직접 촬영한 일상 속 담배꽁초 이미지**와  

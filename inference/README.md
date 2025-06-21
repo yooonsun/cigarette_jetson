@@ -16,7 +16,7 @@
 # Inference 설명
 
 
-## 0. 환경 설정 안내
+## ⚙️ 환경 설정 안내
 
 - JetPack : [4.6.x](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro)  
 - 기본 내장 (JetPack 4.6.x 설치 시 자동 포함):
@@ -35,13 +35,19 @@
   - tqdm
 
 
-## 1. ONNX → TensorRT 변환
+## 🪛 ONNX → TensorRT 변환
 
-Jetson Nano 환경에서 추론 속도를 높이기 위해, 학습된 ONNX 모델을 TensorRT로 변환하였습니다.  
+Jetson Nano 환경에서 추론 속도를 높이기 위해, ONNX 파일을 TensorRT로 변환하였습니다.  
 변환 시 사용한 명령어는 다음과 같습니다:
 
 ```bash
 /usr/src/tensorrt/bin/trtexec --onnx=best.onnx --saveEngine=best.trt --explicitBatch --fp16
 ```
 
-  
+## 🔬 추론 모델 성능 평가
+|  mAP  |  Precision  |  Recall  |
+| --------- | ------ | ----- |
+|   0.0006   |   0.0006  |  1.0000  |
+
+
+<br><br><br><br><br><br><br>

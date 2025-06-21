@@ -10,7 +10,7 @@
 - 담배꽁초 외에 다양한 배경 및 오브젝트가 포함됨
 - 오탐/미탐 여부를 시각화하여 모델 성능 확인
 
-<hr>
+<hr><br>
 
 
 # Inference 설명
@@ -34,6 +34,7 @@
   - matplotlib
   - tqdm
 
+<br>
 
 ## 🪛 ONNX → TensorRT 변환
 
@@ -43,6 +44,7 @@ Jetson Nano 환경에서 추론 속도를 높이기 위해, ONNX 파일을 Tenso
 ```bash
 /usr/src/tensorrt/bin/trtexec --onnx=best.onnx --saveEngine=best.trt --explicitBatch --fp16
 ```
+<br>
 
 ## 🔬 추론 모델 성능 평가
 |  mAP  |  Precision  |  Recall  |

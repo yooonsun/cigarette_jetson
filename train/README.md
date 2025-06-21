@@ -9,10 +9,11 @@
 - 라벨링이 완료된 담배꽁초 이미지로 구성된 데이터셋
 - YOLO 형식으로 다운로드 받아 사용함
 
-<hr>
+<hr><br>
 
-# Train 설명
+# ✅ Train 설명
 
+ 
  ## 📦 Requirements 안내
 
 본 프로젝트의 `requirements.txt` 파일에는 학습 및 변환 시 사용한 주요 라이브러리들이 명시되어 있습니다.  
@@ -23,6 +24,7 @@
 
 📎 [`requirements.txt` 바로가기](./requirements.txt)
 
+<br>
 
   ## 🧠 참고: 가중치 파일
 

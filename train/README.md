@@ -1,7 +1,15 @@
 # Train 설명
-<br/>
+  
+  ## 📂 학습에 사용된 데이터셋
 
-## 📦 Requirements 안내
+본 프로젝트의 학습에는 Roboflow에서 제공되는 다음 데이터셋을 사용하였습니다.
+
+🔗 [Cigarette Detection Dataset (Roboflow)](https://universe.roboflow.com/nix-ibdvk/cigarette-detection-mgfmv)
+
+- 라벨링이 완료된 담배꽁초 이미지로 구성된 데이터셋
+- YOLO 형식으로 다운로드 받아 사용함
+
+  ## 📦 Requirements 안내
 
 본 프로젝트의 `requirements.txt` 파일에는 학습 및 변환 시 사용한 주요 라이브러리들이 명시되어 있습니다.  
 이는 [Jetson Nano 추론 환경](../inference/README.md)과는 **다를 수 있음**을 감안하여 작성된 것으로, **필수적으로 동일 버전을 사용할 필요는 없습니다.**

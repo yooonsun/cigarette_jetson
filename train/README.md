@@ -45,7 +45,7 @@ model.export(format="onnx", opset=12, dynamic=False, simplify=False)
 
 <br/>
 
- ### 실생활 이미지 실험
+ ### 추가 확인
 
 모델이 실제로 얼마나 잘 동작하는지를 확인하기 위해, 우리가 **직접 촬영한 일상 속 담배꽁초 이미지**와  
 **비슷한 크기나 형태를 가진 다른 물체 사진**을 통해 실험을 진행하였습니다.
@@ -54,3 +54,6 @@ model.export(format="onnx", opset=12, dynamic=False, simplify=False)
 - ❌ 오탐 여부 (예: 나뭇가지, 종이조각 등) 확인
 
 > 아래는 실험에 사용된 이미지와 결과 예시입니다.
+
+
+<br><br><br><br><br><br><br><br>

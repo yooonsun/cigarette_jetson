@@ -1,4 +1,4 @@
-# cigarrette_jetson
+# cigarette_jetson
 
 ## train
 학습 - 로컬

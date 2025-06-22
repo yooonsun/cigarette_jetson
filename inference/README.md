@@ -44,12 +44,18 @@ Jetson Nano 환경에서 추론 속도를 높이기 위해, ONNX 파일을 Tenso
 ```bash
 /usr/src/tensorrt/bin/trtexec --onnx=best.onnx --saveEngine=best.trt --explicitBatch --fp16
 ```
+
 <br>
 
-## 🔬 추론 모델 성능 평가
+## 🔬 추론 
+🔗 [코드](./inference.ipynb)
+
+<br>
+
+### 🔬 추론 모델 성능 평가
 |  mAP  |  Precision  |  Recall  |
 | --------- | ------ | ----- |
 |   0.0006   |   0.0006  |  1.0000  |
 
 
-<br><br><br><br><br><br><br>
+<br><hr><br><br><br><br><br><br>

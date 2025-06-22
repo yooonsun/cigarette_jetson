@@ -69,6 +69,9 @@ model.export(format="onnx", opset=12, dynamic=False, simplify=False)
 - ❌ 오탐 여부 (예: 나뭇가지, 종이조각 등) 확인
 
 > 아래는 실험에 사용된 이미지와 결과 예시입니다.
-
+<p>
+ <img src="https://github.com/user-attachments/assets/5c508fc2-42e0-45c2-8e66-dcf64417d5ca" width="40%"/>
+ <img src="https://github.com/user-attachments/assets/9fd299db-7a31-4bbb-9dd6-000a7c2cdb2a" width="40%"/>
+ </p>
 
 <br><hr><br><br><br><br><br><br><br>

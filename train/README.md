@@ -47,6 +47,19 @@ model.export(format="onnx", opset=12, dynamic=False, simplify=False)
 
 <br/>
 
+ ### 학습 모델 성능 평가
+
+ | train/box_loss | train/class_loss | Precision | recall | mAP50-95 |
+ |------------|-------------|------------|------------|------------|
+ | 0.404    | 0.230       | 0.988     | 0.981  | 0.910        |
+
+<p>
+ <img src="https://github.com/user-attachments/assets/e9dfb0ba-17e7-4141-8787-ee096c6badcd" width="90%"/>
+
+</p>
+
+<br/>
+
  ### 추가 확인
 
 모델이 실제로 얼마나 잘 동작하는지를 확인하기 위해, 우리가 **직접 촬영한 일상 속 담배꽁초 이미지**와  
@@ -58,4 +71,4 @@ model.export(format="onnx", opset=12, dynamic=False, simplify=False)
 > 아래는 실험에 사용된 이미지와 결과 예시입니다.
 
 
-<br><br><br><br><br><br><br><br>
+<br><hr><br><br><br><br><br><br><br>
